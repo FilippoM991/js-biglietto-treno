@@ -33,6 +33,6 @@ main {
 #prezzo {
     width: 80%;
     margin: 10px auto;
-    border: 2px solid red;
+    border: 2px solid green;
     background-color: white;
 }
