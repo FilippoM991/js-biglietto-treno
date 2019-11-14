@@ -14,7 +14,9 @@ if (eta < 18) {
 //     document.getElementById('prezzo-finale').innerHTML = "Riprova a inserire i dati, ricorda..solo numeri interi, niente lettere!";
 // }
 // il comando sopra con if non funziona!
-// console.log(prezzoBiglietto);
-var prezzoBigliettoArrotondato = prezzoBiglietto.toFixed(2);
 
+
+// due metodi per arrotondare!
+var prezzoBigliettoArrotondato = (Math.trunc(prezzoBiglietto * 100))/100;
+// var prezzoBigliettoArrotondato = prezzoBiglietto.toFixed(2);
 document.getElementById('prezzo-finale').innerHTML = prezzoBigliettoArrotondato;
